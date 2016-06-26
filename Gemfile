@@ -51,3 +51,5 @@ gem 'angular-rails-templates'
 gem 'ransack'
 gem 'devise'
 gem "font-awesome-rails"
+gem 'wicked'
+gem 'bootstrap-datepicker-rails'

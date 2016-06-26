@@ -6,3 +6,16 @@
   background-color: #0091ea;
   color:#fff;
 }
+.new-form {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.new-form .well {
+  background-color: #8095a8;
+  color:#fff;
+}
+.new-form .well h1 {
+  font-weight: 700 !important;
+}
