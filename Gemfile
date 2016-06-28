@@ -53,3 +53,5 @@ gem 'devise'
 gem "font-awesome-rails"
 gem 'wicked'
 gem 'bootstrap-datepicker-rails'
+gem "rmagick"
+gem "carrierwave"

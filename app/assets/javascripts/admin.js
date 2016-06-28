@@ -2,7 +2,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
-//= require bootstrap-datepicker
+//= require admin/bootstrap-datepicker
 //= require admin/jquery.metisMenu
 //= require admin/jquery.slimscroll.min
 //= require admin/jquery.flot
