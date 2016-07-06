@@ -1,74 +1,67 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>First name:</strong>
-  <%= @student.first_name %>
-</p>
+<div class="jumbotron">
+  <h3><strong><%= @student.name %></strong></h3>
+</div>
 
-<p>
-  <strong>Middle name:</strong>
-  <%= @student.middle_name %>
-</p>
+<div class="row">
+  <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3">
+    <%= image_tag @student.profile_pic, class: "img-responsive" %>
+  </div>
+  <div class="col-md-9 col-xs-12 col-sm-9 col-lg-9">
+    <p>
+      <strong>Date of birth:</strong>
+      <%= @student.date_of_birth %>
+    </p>
 
-<p>
-  <strong>Last name:</strong>
-  <%= @student.last_name %>
-</p>
+    <p>
+      <strong>Age:</strong>
+      <%= @student.age %>
+    </p>
 
-<p>
-  <strong>Date of birth:</strong>
-  <%= @student.date_of_birth %>
-</p>
+    <p>
+      <strong>Admission date:</strong>
+      <%= @student.admission_date %>
+    </p>
 
-<p>
-  <strong>Age:</strong>
-  <%= @student.age %>
-</p>
+    <p>
+      <strong>Admission number:</strong>
+      <%= @student.admission_number %>
+    </p>
 
-<p>
-  <strong>Admission date:</strong>
-  <%= @student.admission_date %>
-</p>
+    <p>
+      <strong>Category:</strong>
+      <%= @student.category %>
+    </p>
 
-<p>
-  <strong>Admission number:</strong>
-  <%= @student.admission_number %>
-</p>
+    <p>
+      <strong>Cast:</strong>
+      <%= @student.cast %>
+    </p>
 
-<p>
-  <strong>Category:</strong>
-  <%= @student.category %>
-</p>
+    <p>
+      <strong>Relegion:</strong>
+      <%= @student.relegion %>
+    </p>
 
-<p>
-  <strong>Cast:</strong>
-  <%= @student.cast %>
-</p>
+    <p>
+      <strong>Blood group:</strong>
+      <%= @student.blood_group %>
+    </p>
 
-<p>
-  <strong>Relegion:</strong>
-  <%= @student.relegion %>
-</p>
+    <p>
+      <strong>Address:</strong>
+      <%= @student.address %>
+    </p>
 
-<p>
-  <strong>Blood group:</strong>
-  <%= @student.blood_group %>
-</p>
+    <p>
+      <strong>Contact:</strong>
+      <%= @student.contact %>
+    </p>
+  </div>
+</div>
 
-<p>
-  <strong>Address:</strong>
-  <%= @student.address %>
-</p>
-
-<p>
-  <strong>Profile pic:</strong>
-  <%= @student.profile_pic %>
-</p>
-
-<p>
-  <strong>Contact:</strong>
-  <%= @student.contact %>
-</p>
-
-<%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', students_path %>
+<div class="links">
+  <%= link_to 'Edit', edit_student_path(@student), class: "btn btn-cust btn-lg" %> |
+  <%= link_to 'Back', students_path, class: "btn btn-cust btn-lg" %>
+</div>
